@@ -24,6 +24,8 @@ on:
       message:
         description: 'Commit message (optional)'
         required: false
+permissions:
+  contents: write
 jobs:
   sync:
     runs-on: ubuntu-latest
